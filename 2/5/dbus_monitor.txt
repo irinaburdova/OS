@@ -1,0 +1,43 @@
+
+method call sender=:1.87 -> dest=:1.84 serial=58 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=PurpleAccountsFind
+   string "*********"
+   string "prpl-icq"
+method return sender=:1.84 -> dest=:1.87 reply_serial=58
+   int32 249
+method call sender=:1.87 -> dest=:1.84 serial=59 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=PurpleConversationNew
+   int32 1
+   int32 249
+   string "*********"
+method return sender=:1.84 -> dest=:1.87 reply_serial=59
+   int32 9430
+method call sender=:1.87 -> dest=:1.84 serial=60 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=PurpleConvIm
+   int32 9430
+method return sender=:1.84 -> dest=:1.87 reply_serial=60
+   int32 9431
+method call sender=:1.87 -> dest=:1.84 serial=61 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=PurpleConvImSend
+   int32 9431
+   string "action: Subfile was deleted, path: /home/irin/OS2/9"
+signal sender=:1.84 -> dest=(null destination) serial=798 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=SendingImMsg
+   int32 249
+   string "*********"
+   string "action: Subfile was deleted, path: /home/irin/OS2/9"
+signal sender=:1.84 -> dest=(null destination) serial=799 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=WritingImMsg
+   int32 249
+   string "*********"
+   string "action: Subfile was deleted, path: /home/irin/OS2/9"
+   int32 9430
+   uint32 1
+signal sender=:1.84 -> dest=(null destination) serial=800 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=LogTimestamp
+   int32 9432
+   int64 1368353803
+   boolean false
+signal sender=:1.84 -> dest=(null destination) serial=801 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=DisplayingImMsg
+   int32 249
+   string "*********"
+   string "action: Subfile was deleted, path: /home/irin/OS2/9"
+   int32 9430
+   int32 1
+signal sender=:1.84 -> dest=(null destination) serial=802 path=/im/pidgin/purple/PurpleObject; interface=im.pidgin.purple.PurpleInterface; member=ConversationTimestamp
+   int32 9430
+   int64 1368353803
+   boolean false
